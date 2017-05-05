@@ -1,0 +1,53 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+C	../classification/iris_exercise.py	/^C = 1.0$/;"	kind:variable	line:18
+LDA.py	../classification/LDA.py	1;"	kind:file	line:1
+LinearDiscriminantAnalysis	../classification/LDA.py	/^from sklearn.discriminant_analysis import LinearDiscriminantAnalysis$/;"	kind:namespace	line:6
+LogisticRegression	../classification/iris_exercise.py	/^from sklearn.linear_model import LogisticRegression$/;"	kind:namespace	line:5
+SVC	../classification/iris_exercise.py	/^from sklearn.svm import SVC$/;"	kind:namespace	line:6
+SVM.py	../classification/SVM.py	1;"	kind:file	line:1
+X	../classification/iris_exercise.py	/^X = iris.data[:, 0:2] $/;"	kind:variable	line:10
+Xfull	../classification/iris_exercise.py	/^Xfull = np.c_[xx.ravel(), yy.ravel()]$/;"	kind:variable	line:31
+classifier	../classification/SVM.py	/^classifier = svm.SVC(gamma=0.001)$/;"	kind:variable	line:23
+classifiers	../classification/iris_exercise.py	/^classifiers = {'L1 logistic': LogisticRegression(C=C, penalty='l1'),$/;"	kind:variable	line:22
+clf1	../classification/LDA.py	/^        clf1 = LinearDiscriminantAnalysis($/;"	kind:variable	line:36
+clf2	../classification/LDA.py	/^        clf2 = LinearDiscriminantAnalysis($/;"	kind:variable	line:38
+data	../classification/SVM.py	/^data = digits.images.reshape((s_len,-1))$/;"	kind:variable	line:21
+datasets	../classification/SVM.py	/^from sklearn import svm, datasets, metrics$/;"	kind:namespace	line:3
+datasets	../classification/iris_exercise.py	/^from sklearn import datasets$/;"	kind:namespace	line:7
+df	../classification/LDA.py	/^df = pd.DataFrame(np.hstack([y.reshape(10, 1), X]))$/;"	kind:variable	line:25
+digits	../classification/SVM.py	/^digits = datasets.load_digits()$/;"	kind:variable	line:5
+expected	../classification/SVM.py	/^expected = digits.target[s_len \/ 2:]$/;"	kind:variable	line:27
+features_samples_ratio	../classification/LDA.py	/^features_samples_ratio = np.array(n_features_range) \/ n_train$/;"	kind:variable	line:48
+generate_data	../classification/LDA.py	/^def generate_data(n_samples, n_features):$/;"	kind:function	line:15
+img_and_label	../classification/SVM.py	/^img_and_label = zip(digits.images, digits.target)$/;"	kind:variable	line:11
+iris	../classification/iris_exercise.py	/^iris = datasets.load_iris()$/;"	kind:variable	line:9
+iris_exercise.py	../classification/iris_exercise.py	1;"	kind:file	line:1
+make_blobs	../classification/LDA.py	/^from sklearn.datasets import make_blobs$/;"	kind:namespace	line:5
+matplotlib	../classification/LDA.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+matplotlib	../classification/SVM.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+matplotlib	../classification/iris_exercise.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+metrics	../classification/SVM.py	/^from sklearn import svm, datasets, metrics$/;"	kind:namespace	line:3
+n_averages	../classification/LDA.py	/^n_averages = 50$/;"	kind:variable	line:10
+n_classifiers	../classification/iris_exercise.py	/^n_classifiers = len(classifiers)$/;"	kind:variable	line:29
+n_features	../classification/iris_exercise.py	/^n_features = X.shape[1]$/;"	kind:variable	line:13
+n_features_max	../classification/LDA.py	/^n_features_max = 75$/;"	kind:variable	line:11
+n_features_range	../classification/LDA.py	/^n_features_range = range(1, n_features_max + 1, step)$/;"	kind:variable	line:30
+n_test	../classification/LDA.py	/^n_test = 200$/;"	kind:variable	line:9
+n_train	../classification/LDA.py	/^n_train = 20$/;"	kind:variable	line:8
+np	../classification/LDA.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../classification/iris_exercise.py	/^import numpy as np$/;"	kind:namespace	line:3
+pd	../classification/LDA.py	/^import pandas as pd$/;"	kind:namespace	line:3
+plt	../classification/LDA.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+plt	../classification/SVM.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+plt	../classification/iris_exercise.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+predicted	../classification/SVM.py	/^predicted = classifier.predict(data[s_len \/ 2:])$/;"	kind:variable	line:30
+random_state	../classification/iris_exercise.py	/^                                 random_state=0),$/;"	kind:variable	line:25
+s_len	../classification/SVM.py	/^s_len = len(digits.images)$/;"	kind:variable	line:20
+step	../classification/LDA.py	/^step = 4$/;"	kind:variable	line:12
+svm	../classification/SVM.py	/^from sklearn import svm, datasets, metrics$/;"	kind:namespace	line:3
+y	../classification/iris_exercise.py	/^y = iris.target$/;"	kind:variable	line:11
